@@ -1,38 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Unified JavaScript</title>
-    <style>
-        body, html {
-            margin: 0;
-            padding: 0;
-            width: 100%;
-            height: 100%;
-            overflow: hidden;
-        }
-        canvas {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 1;
-        }
-        #paaran-art {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 2;
-            text-align: center;
-            color: white;
-        }
-    </style>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="paaran-art">PAARAN ART</div>
+    <div id="menu-container">
+      <ul id="menu">
+        <li>About</li>
+        <li>Projects</li>
+        <li>Members</li>
+        <li>Radio</li>
+      </ul>
+    </div>
     <canvas id="canvas"></canvas>
-    <div id="paaran-art">Paaran Art</div>
-    <script src="text.js"></script>
-</body>
+    <script src="script.js"></script>
+    <script src="upwards.js"></script>
+    <script src="menu.js"></script>
+  </body>
 </html>
